@@ -27,17 +27,25 @@ components:
     type: TextBox
     layout_properties: {grid_position: 'YDCRAX,TPOMJM'}
   - name: home_button
-    properties: {text: Home, role: nav-item, spacing_below: none}
+    properties:
+      text: Home
+      role: [nav-item, filled]
+      spacing_below: none
     type: Button
     layout_properties: {grid_position: 'HQKUZH,XNMGMQ'}
     event_bindings: {click: home_button_click}
   - name: leaderboard_button
-    properties: {text: Leaderboard, role: nav-item, bold: false}
+    properties:
+      text: Leaderboard
+      role: [nav-item, filled]
+      bold: false
     type: Button
     layout_properties: {grid_position: 'AIQAWF,HPFOSX'}
     event_bindings: {click: leaderboard_button_click}
   - name: graph_button
-    properties: {text: Graph, role: nav-item}
+    properties:
+      text: Graph
+      role: [nav-item, filled]
     type: Button
     layout_properties: {grid_position: 'UHZLJY,PCVFWI'}
     event_bindings: {click: graph_button_click}
@@ -46,82 +54,112 @@ components:
     type: TextBox
     layout_properties: {grid_position: 'DZDWAO,JXIYJH'}
   - name: label_1
-    properties: {text: 'Laboratories:', align: center, role: body}
+    properties: {text: 'Laboratories:', align: center, role: nav-header}
     type: Label
     layout_properties: {grid_position: 'OJAKCH,DWYPLM'}
   - name: cnl_button
-    properties: {text: CNL, role: nav-item}
+    properties:
+      text: CNL
+      role: [nav-item, filled]
     type: Button
     layout_properties: {grid_position: 'WTPDQF,TQSBCI'}
     event_bindings: {click: cnl_button_click}
   - name: dspl_button
-    properties: {text: DSPL, align: center, role: nav-item}
+    properties:
+      text: DSPL
+      align: center
+      role: [nav-item, filled]
     type: Button
     layout_properties: {grid_position: 'XCCLRJ,EJUWSK'}
     event_bindings: {click: dspl_button_click}
   - name: erml_button
-    properties: {text: ERML, role: nav-item}
+    properties:
+      text: ERML
+      role: [nav-item, filled]
     type: Button
     layout_properties: {grid_position: 'BJCVTP,DMJAMA'}
     event_bindings: {click: erml_button_click}
   - name: microlab_button
-    properties: {text: MicroLab, role: nav-item}
+    properties:
+      text: MicroLab
+      role: [nav-item, filled]
     type: Button
     layout_properties: {grid_position: 'RZQAVS,OEXADA'}
     event_bindings: {click: microlab_button_click}
   - name: pel_button
-    properties: {text: PEL, role: nav-item}
+    properties:
+      text: PEL
+      role: [nav-item, filled]
     type: Button
     layout_properties: {grid_position: 'TDHXLL,DRABMN'}
     event_bindings: {click: pel_button_click}
   - name: pssl_button
-    properties: {text: PSSL, role: nav-item}
+    properties:
+      text: PSSL
+      role: [nav-item, filled]
     type: Button
     layout_properties: {grid_position: 'IHAIJS,PXXEWV'}
     event_bindings: {click: pssl_button_click}
   - name: ral_button
-    properties: {text: RAL, role: nav-item}
+    properties:
+      text: RAL
+      role: [nav-item, filled]
     type: Button
     layout_properties: {grid_position: 'ODMMYA,UTAXWC'}
     event_bindings: {click: ral_button_click}
   - name: sgrc_button
-    properties: {text: SGRC, role: nav-item}
+    properties:
+      text: SGRC
+      role: [nav-item, filled]
     type: Button
     layout_properties: {grid_position: 'PHBYWF,IFCOAE'}
     event_bindings: {click: sgrc_button_click}
   - name: solar_button
-    properties: {text: SOLAR, role: nav-item}
+    properties:
+      text: SOLAR
+      role: [nav-item, filled]
     type: Button
     layout_properties: {grid_position: 'HZXKSW,EBUKIB'}
     event_bindings: {click: solar_button_click}
   - name: ssl_button
-    properties: {text: SSL, role: nav-item}
+    properties:
+      text: SSL
+      role: [nav-item, filled]
     type: Button
     layout_properties: {grid_position: 'PWTJVR,YLQNCY'}
     event_bindings: {click: ssl_button_click}
   - name: ucl_button
-    properties: {text: 'UCL
+    properties:
+      text: 'UCL
 
-        ', role: nav-item}
+        '
+      role: [nav-item, filled]
     type: Button
     layout_properties: {grid_position: 'FQKQKM,IKWELS'}
     event_bindings: {click: ucl_button_click}
   - name: wcel_button
-    properties: {text: WCEL, role: nav-item}
+    properties:
+      text: WCEL
+      role: [nav-item, filled]
     type: Button
     layout_properties: {grid_position: 'DBIFUZ,OZMPZK'}
     event_bindings: {click: wcel_button_click}
   - name: text_box_3
-    properties: {role: separator}
+    properties:
+      role: [separator]
     type: TextBox
     layout_properties: {grid_position: 'NLACDJ,FWZDAT'}
   - name: about_button
-    properties: {text: About, role: nav-item}
+    properties:
+      text: About
+      role: [nav-item, filled]
     type: Button
     layout_properties: {grid_position: 'HVBWAS,MFVBUX'}
     event_bindings: {click: about_button_click}
   - name: test
-    properties: {text: test, role: nav-item}
+    properties:
+      text: test
+      role: [nav-item, filled]
     type: Button
     layout_properties: {grid_position: 'MFDXKB,MEYYMJ'}
     event_bindings: {click: test_click}

@@ -14,7 +14,7 @@ services:
 startup: {type: form, module: Frame}
 package_name: EEEI_Electricity_Consumption_Leaderboard
 allow_embedding: false
-name: Clone of EEEI Electricity Consumption Leaderboard (PyEmVue Disabled) (2)
+name: Clone of EEEI Electricity Consumption Leaderboard (PyEmVue Disabled) (NavBar Done!)
 runtime_options:
   version: 2
   client_version: '3'

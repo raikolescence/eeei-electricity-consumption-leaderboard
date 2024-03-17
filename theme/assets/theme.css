@@ -112,10 +112,12 @@ a:active:not(disabled), a:focus:not(disabled){
 }
 
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
-  padding: 10px 15px; /* Vertical and horizontal padding */
+  /*padding: 10px 15px;  Vertical and horizontal padding 
   color: #00bfa5;
   border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
+  border-bottom-left-radius: 25px;*/
+  color: #00bfa5;
+  border-radius:10px;
   outline: none;
   background-color: white;
   outline-offset: 0px;
@@ -124,6 +126,8 @@ a:active:not(disabled), a:focus:not(disabled){
 .btn[disabled], .btn[disabled]:hover, .btn[disabled]:focus, .file-loader.anvil-disabled > label, .file-loader.anvil-disabled > label:hover { 
   color: %color:On Disabled%;
   background-color: transparent; !important
+  color: #00bfa5;
+
 }
 
 
@@ -335,7 +339,9 @@ input[disabled] ~ span {
 }
 
 .anvil-role-filled .btn[disabled], .anvil-role-filled .btn[disabled]:hover, .anvil-role-filled.anvil-disabled > label {
-  color: %color:On Disabled%;
+  color: #00bfa5;
+
+
   background: %color:Disabled Container%;
 }
 
@@ -736,6 +742,8 @@ input[disabled] ~ span {
   text-align: center; /* Center the header content */
   margin-bottom: 10px; /* Space from header to menu items */
     background-color: rgb(36,164,163); /* The background color you prefer */
+  color:#063542;
+  font-weight: bold;
 
 }
 
@@ -762,16 +770,16 @@ input[disabled] ~ span {
 .anvil-role-nav-item:target, .anvil-role-nav-item:active, .anvil-role-nav-item:hover {
   background-color: white;
   color: #00bfa5;
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
   border-style:none;
 }
   
 .anvil-role-nav-item:focus {
   background-color: white;
   color: #00bfa5; /* Or any other color you want for the text */
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
 }
 
 .anvil-role-nav-icon {
@@ -786,7 +794,7 @@ input[disabled] ~ span {
   padding: 1px 15px; /* Vertical and horizontal padding */
   padding-left:30px;
   font-size: 22px; /* Font size for headers */
-  color: white; /* Color for headers */
+  color: #063542; /* Color for headers */
   font-weight:bold;
   letter-spacing:2px;
 }
