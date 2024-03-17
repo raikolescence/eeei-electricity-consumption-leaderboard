@@ -20,6 +20,15 @@ roles:
   components: [Label, Link]
 - name: input-prompt
   components: [Label, Link]
+- name: nav-item
+  components: [Button]
+  display_in_toolbox: false
+- name: sidebar
+  components: [ColumnPanel]
+- name: nav-header
+  components: [Label]
+- name: separator
+  components: [TextBox]
 color_scheme:
   preset_groups:
   - name: Colour Scheme

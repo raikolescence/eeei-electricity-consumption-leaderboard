@@ -52,11 +52,11 @@ body {
 }
 
 a {
-  color: %color:Primary%;
+  color: #00bfa5;
 }
 
 a:hover:not(disabled) {
-  color: %color:Primary Container%;
+  color: white;
 }
 
 a:active:not(disabled), a:focus:not(disabled){
@@ -87,33 +87,37 @@ a:active:not(disabled), a:focus:not(disabled){
 /* Buttons */
 
 .btn, .btn-default, .file-loader, .file-loader > label { 
-  font-size: 14px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
-  letter-spacing: 2px;
-  
-  border: 0;
+  letter-spacing: 3px;
+  display:block;
+  margin-left:15px;
+  border-style:none;
   background-color: transparent;
   background-image: none;
   color: %color:On Background%;
   text-shadow: none;
   box-shadow: none;
   -webkit-box-shadow: none;
-  
+  transition:0.3s;
   position: relative;
+  white-space:nowrap;
+  width:250px;
 }
 
 .btn:hover, .btn-default:hover {
-  color: %color:On Background%;
-  background-color: %color:Light Overlay 1%;
-  outline: none;
-  background-image: none;
+  color: #00bfa5; /* Or any other color you want for the text */
+
 }
 
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
-  color: %color:On Background%;
-  background-color: %color:Light Overlay 2%;
+  padding: 10px 15px; /* Vertical and horizontal padding */
+  color: #00bfa5;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
   outline: none;
+  background-color: white;
   outline-offset: 0px;
 }
 
@@ -121,6 +125,7 @@ a:active:not(disabled), a:focus:not(disabled){
   color: %color:On Disabled%;
   background-color: transparent; !important
 }
+
 
 /* Inputs */
 
@@ -525,8 +530,11 @@ input[disabled] ~ span {
   flex-shrink: 0;
   min-width: 160px;
   max-width: 400px;
+  width:250px;
 }
-
+.left-nav{
+  background-color:#00bfa5;
+}
 .logo {
   margin-bottom: 20px;
   min-width: 40px;
@@ -541,7 +549,7 @@ input[disabled] ~ span {
 }
 
 .left-nav-container {
-  margin: 10px;
+  margin: 0px;
 }
 /* Mobile */
 
@@ -605,6 +613,8 @@ input[disabled] ~ span {
   color: %color:On Surface Variant%;
   overflow-x: hidden;
   overflow-y: auto;
+    background-color: rgb(36,164,163); /* The background color you prefer */
+
 }
 
 .left-nav-placeholder {
@@ -613,6 +623,7 @@ input[disabled] ~ span {
   line-height: 1;
   width: 58px;
   flex-grow: 1;
+  
 }
 .left-nav-placeholder .prompt {
   display: inline-block;
@@ -705,3 +716,230 @@ input[disabled] ~ span {
 }
 
 .nav-holder > .logo > .placeholder { outline: 1px dotted; padding-left: 16px; padding-right: 16px; margin: 8px 8px 0;}
+.anvil-role-sidebar {
+  font-family: 'Roboto Condensed';
+  grid-column: 1;
+  width: ; /* Adjust width as necessary */
+  background-color: rgb(36,164,163); /* The background color you prefer */
+  color: white; /* Text color */
+  height: 100%; /* Full height */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  margin: 0px;
+}
+
+.anvil-role-sidebar-header {
+  padding-top:200px;
+  padding-right:10px;
+  text-align: center; /* Center the header content */
+  margin-bottom: 10px; /* Space from header to menu items */
+    background-color: rgb(36,164,163); /* The background color you prefer */
+
+}
+
+.anvil-role-sidebar-logo {
+  width: 50px; /* Adjust logo size as needed */
+  margin-bottom: 10px; /* Space between logo and header text */
+  margin-right:10px;
+}
+
+.anvil-role-nav-item {
+  padding: 10px 15px; /* Vertical and horizontal padding */
+  text-decoration: none; /* No underline */
+  font-size: 18px; /* Font size for nav items */
+  display: block; /* Block level elements */
+  transition: 0.3s; /* Smooth transition for hover effect */
+  color: white; /* Text color for nav items */
+  white-space: nowrap; /* Ensure text doesn't wrap */
+  margin-left:15px;
+}
+/*
+.nav-item:hover {
+  background-color: #00897b;  Background color on hover 
+}*/
+.anvil-role-nav-item:target, .anvil-role-nav-item:active, .anvil-role-nav-item:hover {
+  background-color: white;
+  color: #00bfa5;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-style:none;
+}
+  
+.anvil-role-nav-item:focus {
+  background-color: white;
+  color: #00bfa5; /* Or any other color you want for the text */
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.anvil-role-nav-icon {
+  margin-right: 10px; /* Space between icon and text */
+  width: 24px; /* Adjust icon size as needed */
+  vertical-align: middle; /* Align icon with text */
+  padding: 10px;
+  z-index:1000;
+}
+
+.anvil-role-nav-header {
+  padding: 1px 15px; /* Vertical and horizontal padding */
+  padding-left:30px;
+  font-size: 22px; /* Font size for headers */
+  color: white; /* Color for headers */
+  font-weight:bold;
+  letter-spacing:2px;
+}
+
+/* Add this after your existing sidebar styles */
+.anvil-role-nav-item:active, .anvil-role-nav-item:focus {
+  background-color: white;
+  color: #00bfa5; /* Or any other color you want for the text */
+  
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+/* Styles for the divider lines */
+.anvil-role-divider {
+  background-color: #ffffff;
+  height: 2px;
+  margin: 20px 0;
+  border: none;
+}
+
+/* Update your existing .sidebar-header to include flexbox for aligning logo and text */
+.anvil-role-sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+  padding-top:20px;
+  padding-left:10px;
+  position: relative; /* Allows absolute positioning of the divider relative to this container */
+}
+.left-nav-container.anvil-measure-this {
+  margin-left: 0px !important; /* Shifts the element to the right */
+  width: calc(100% + 20px) !important; /* Extends the width */
+}
+
+/* Absolute positioning of the divider to make it full-width */
+
+/* Another divider for after the navigation links 
+.anvil-role-nav-item:last-child:after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 10px; /* Adjust spacing to your liking */
+}*/
+
+.anvil-role-nav-header{
+  font-weight: bold;
+  font-size: 1.5em;
+  color: white;
+  margin: 10px
+}
+
+
+/* ... other styles ... */
+
+/* Initially hide all content areas */
+.anvil-role-content-area {
+  grid-column: 2; /* Position the content in the second column */
+  background-color: white;
+  padding: 20px; /* Add padding inside the content area */
+  display: none; /* Hide all by default */
+  overflow-y: auto; /* Enable vertical scroll if needed */
+  height: 100vh; /* Full height of the viewport */
+}
+
+/* When a content area is targeted, display it */
+:target {
+  display: block;
+}
+
+/* Adjust the .sidebar style to remove fixed positioning so it scrolls with content */
+.anvil-role-sidebar {
+  position: static;
+}
+
+
+.nav-item[href="#home"]:target ~ .content-area#home,
+.nav-item[href="#leaderboard"]:target ~ .content-area#leaderboard,
+.nav-item[href="#graphs"]:target ~ .content-area#graphs {
+  /* Styles when the content area is targeted */
+  /* ... */
+  background-color: black;
+}
+
+/* Highlight the .nav-item link based on the current target */
+#home:target ~ nav .sidebar .nav-item[href="#home"],
+#leaderboard:target ~ nav .sidebar .nav-item[href="#leaderboard"],
+#graphs:target ~ nav .sidebar .nav-item[href="#graphs"] {
+  background-color: white;
+  color: #00bfa5;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.anvil-role-nav-item, 
+.anvil-role-nav-item * { /* This will target all elements inside nav-item as well */
+    /* Your base styles for nav-item */
+}
+
+.anvil-role-nav-item:active, 
+.anvil-role-nav-item:hover,
+.anvil-role-nav-item:active *, 
+.anvil-role-nav-item:hover * { /* Apply hover styles to all elements inside nav-item */
+    background-color: white;
+    color: #00bfa5;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.anvil-role-nav-item:focus,
+.anvil-role-nav-item:focus * { /* Apply focus styles to all elements inside nav-item */
+    background-color: white;
+    color: #00bfa5;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.anvil-role-separator {
+  position: relative;
+  height: 1px; /* Height of the separator container */
+  background-color: transparent; /* This should match the surrounding color if you want to blend it */
+  height:1px;
+  width:150%;
+  left:-100px;
+  font-size:1px;
+}
+
+.anvil-role-separator::before,
+.anvil-role-separator::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  height: 8px; /* Thickness of your line */
+  background-color: #ffffff; /* Color of your line */
+  transform: translateY(-50%);
+}
+
+.anvil-role-separator::before {
+  left: 0;
+  right: 0;
+}
+
+.anvil-role-separator::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  height: 8px; /* Thickness of the line, ensure this is the same as ::before */
+  background-color: #00bfa5; /* Background color to create the 'gap' effect */
+  transform: translateY(-50%);
+  width: 100px; 
+  z-index:100;
+}
