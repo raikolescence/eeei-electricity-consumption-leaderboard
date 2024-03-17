@@ -1,0 +1,7 @@
+container: {type: ColumnPanel}
+components:
+- name: lab_plot
+  properties: {height: 729.25}
+  type: Plot
+  layout_properties: {grid_position: 'JQBGSC,ILKWIN'}
+is_package: true

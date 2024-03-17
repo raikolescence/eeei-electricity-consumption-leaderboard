@@ -1,0 +1,67 @@
+is_package: true
+container:
+  type: ColumnPanel
+  properties: {col_widths: '{"LCNZNV":15,"KXGMCD":13,"BAPDXO":15,"QAQVSS":5,"AVFOCT":12}'}
+  event_bindings: {}
+components:
+- name: data_row_panel_1
+  properties: {}
+  type: DataRowPanel
+  layout_properties: {grid_position: 'YIHZLY,WQADED'}
+  components:
+  - name: label_win_status
+    properties: {align: center, font_size: 23}
+    type: Label
+    layout_properties: {}
+- name: your_score
+  properties: {}
+  type: DataRowPanel
+  layout_properties: {grid_position: 'JNEFQK,LCNZNV'}
+  components:
+  - name: label_your_score
+    properties: {align: left}
+    type: Label
+    layout_properties: {}
+    data_bindings: []
+- name: data_row_panel_2
+  properties: {}
+  type: DataRowPanel
+  layout_properties: {grid_position: 'JNEFQK,QAQVSS'}
+  components:
+  - name: label_1
+    properties: {text: '-', font_size: 14, align: left, bold: true}
+    type: Label
+    layout_properties: {column: 'null'}
+- name: enemy_score
+  properties: {}
+  type: DataRowPanel
+  layout_properties: {grid_position: 'JNEFQK,KXGMCD'}
+  components:
+  - name: label_enemy_score
+    properties: {align: right}
+    type: Label
+    layout_properties: {}
+    data_bindings: []
+- name: enemy_name
+  properties: {}
+  type: DataRowPanel
+  layout_properties: {grid_position: 'JNEFQK,AVFOCT'}
+  components:
+  - name: label_enemy_name
+    properties: {}
+    type: Label
+    layout_properties: {}
+    data_bindings: []
+- name: battle_time
+  properties: {}
+  type: DataRowPanel
+  layout_properties: {grid_position: 'JNEFQK,BAPDXO'}
+  components:
+  - name: label_battle_time
+    properties: {}
+    type: Label
+    layout_properties: {}
+- name: spacer_1
+  properties: {height: 52.5}
+  type: Spacer
+  layout_properties: {grid_position: 'FOPEQV,ZQVHTE'}

@@ -1,0 +1,16 @@
+container: {type: ColumnPanel}
+components:
+- name: card_1
+  properties: {role: card}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'EOEYTZ,FLAQHX'}
+  components:
+  - name: rich_text_1
+    properties: {content: 'INSERT GENERAL INFORMATION HERE
+
+
+        Leaderboard isnt in home page right now, since it takes quite a while to load.
+        (hopefully fixed soon)'}
+    type: RichText
+    layout_properties: {grid_position: 'FVNNEB,PDYPYB'}
+is_package: true

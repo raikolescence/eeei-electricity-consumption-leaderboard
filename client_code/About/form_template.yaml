@@ -1,0 +1,58 @@
+container: {type: ColumnPanel}
+components:
+- name: label_1
+  properties: {text: Gamification and Smart Metering as Methods of Incentivizing Energy Saving in the Research Laboratories of the Electrical and Electronics Engineering Institute of the University of the Philippines Diliman,
+    underline: false, italic: true, bold: true}
+  type: Label
+  layout_properties: {grid_position: 'HMMPIS,LOLMRG'}
+- name: card_1
+  properties: {role: card}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'BKNWFS,EXIZVE'}
+  components:
+  - name: rich_text_1
+    properties: {content: This project aims to reduce the overall energy consumption in the EEEI as well as to instill energy saving behaviors among the students by adding game elements to the act of energy saving. This is done through the use of smart meters to track the energy consumption data of each laboratory. This data is then compiled and transformed into visualizations as seen in this web application.}
+    type: RichText
+    layout_properties: {grid_position: 'ACXXPY,FOBORG'}
+- name: card_2
+  properties: {role: card}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'ZCWSWR,RVPAKJ'}
+  components:
+  - name: label_2
+    properties: {text: 'Members:'}
+    type: Label
+    layout_properties: {grid_position: 'JFSPIW,ZJHLDL'}
+  - name: rich_text_2
+    properties: {content: 'Brian Lennmark S. Bartolo
+
+        2018-67743
+
+        BS Computer Engineering', align: center}
+    type: RichText
+    layout_properties: {grid_position: 'LBVLFK,TTSFVD'}
+  - name: rich_text_3
+    properties: {content: 'Rafael Jose Q. Orosco
+
+        2020-09135
+
+        BS Computer Engineering', align: center}
+    type: RichText
+    layout_properties: {grid_position: 'LBVLFK,ECVMYD'}
+  - name: rich_text_4
+    properties: {content: 'Don Nicolai G. Salonga
+
+        2020-09127
+
+        BS Computer Engineering', align: center}
+    type: RichText
+    layout_properties: {grid_position: 'LBVLFK,TSHYDX'}
+  - name: rich_text_5
+    properties: {content: 'Josc Enri G. Sison
+
+        2020-08768
+
+        BS Electrical Engineering', align: center}
+    type: RichText
+    layout_properties: {grid_position: 'LBVLFK,CBFRIY'}
+is_package: true

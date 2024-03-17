@@ -1,0 +1,145 @@
+correct_dependency_ids: {}
+scheduled_tasks:
+- task_name: init_pyemvue
+  time_spec:
+    n: 1
+    every: hour
+    at: {minute: 5}
+  job_id: GQOKFNGA
+dependencies: []
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
+startup: {type: form, module: Frame}
+package_name: EEEI_Electricity_Consumption_Leaderboard
+allow_embedding: false
+name: Clone of EEEI Electricity Consumption Leaderboard (PyEmVue Disabled) (2)
+runtime_options:
+  version: 2
+  client_version: '3'
+  server_version: python3-sandbox
+  server_spec: null
+  server_spec_disabled: {base: python310-standard, requirements: 'pyemvue
+
+      DateTime
+
+      enums
+
+      python-jose
+
+      bokeh'}
+metadata: {logo_img: 'asset:ssl_logo.png', title: EEEI Electricity Consumption Leaderboard}
+startup_form: null
+native_deps: {head_html: '<link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;600&family=Roboto+Condensed:wght@300;400;700&display=swap"
+    rel="stylesheet" rel="preload" as="font" crossorigin="anonymous">'}
+db_schema:
+  labs:
+    client: none
+    server: full
+    columns:
+    - name: name
+      admin_ui: {order: 0, width: 272}
+      type: string
+    - name: acronym
+      admin_ui: {width: 200, order: 1}
+      type: string
+    - name: description
+      admin_ui: {order: 2, width: 401}
+      type: string
+    - name: logo
+      admin_ui: {width: 200, order: 3}
+      type: media
+    - name: website
+      admin_ui: {width: 200, order: 4}
+      type: string
+    - name: TotalSavings
+      admin_ui: {width: 200}
+      type: number
+    - name: TotalSavingsLastUpdated
+      admin_ui: {width: 200}
+      type: datetime
+    - name: TotalSavingsUpdateCount
+      admin_ui: {width: 200, order: 7}
+      type: number
+    - name: LastSavingsValue
+      admin_ui: {order: 4.5, width: 200}
+      type: number
+    title: labs
+  data:
+    client: none
+    server: full
+    columns:
+    - name: DataLastUpdate
+      admin_ui: {width: 200, order: 0}
+      type: datetime
+    - name: Smart Systems Laboratory
+      admin_ui: {order: 1, width: 200}
+      type: number
+    - name: COMPUTER NETWORKS LABORATORY
+      admin_ui: {order: 2, width: 200}
+      type: number
+    - name: Microelectronics and Microprocessors Laboratory
+      admin_ui: {order: 3, width: 200}
+      type: number
+    - name: Robotics Automation Laboratory
+      admin_ui: {order: 4, width: 200}
+      type: number
+    title: data
+  alertserrors:
+    client: none
+    server: full
+    columns:
+    - name: Time
+      admin_ui: {width: 200, order: 0}
+      type: datetime
+    - name: Error
+      admin_ui: {width: 200, order: 1}
+      type: string
+    - name: Alerts
+      admin_ui: {order: 2, width: 671}
+      type: string
+    title: AlertsErrors
+  matches:
+    client: none
+    server: full
+    columns:
+    - name: battle_time
+      admin_ui: {order: 2, width: 200}
+      type: datetime
+    - name: participant1
+      admin_ui: {width: 200, order: 3}
+      type: string
+    - name: participant2
+      admin_ui: {order: 6, width: 200}
+      type: string
+    - name: participant1_score
+      admin_ui: {width: 200, order: 5}
+      type: number
+    - name: participant2_score
+      admin_ui: {width: 200, order: 7}
+      type: number
+    - name: battle_winner
+      admin_ui: {width: 200, order: 8}
+      type: string
+    title: Matches
+  weeklydata:
+    client: search
+    server: full
+    columns:
+    - name: SSL
+      admin_ui: {width: 200, order: 1}
+      type: number
+    - name: RAL
+      admin_ui: {width: 200, order: 2}
+      type: number
+    - name: CNL
+      admin_ui: {width: 200, order: 3}
+      type: number
+    - name: Microlab
+      admin_ui: {width: 200, order: 4}
+      type: number
+    - name: timestamp
+      admin_ui: {order: 0, width: 200}
+      type: datetime
+    title: weeklydata

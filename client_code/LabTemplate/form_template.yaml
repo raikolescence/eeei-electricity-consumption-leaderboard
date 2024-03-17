@@ -1,0 +1,64 @@
+container:
+  type: ColumnPanel
+  properties: {col_widths: '{"ISMFNB":40}'}
+components:
+- name: column_panel_1
+  properties: {col_widths: '{"IDHDFN":20,"KTPZGP":40}'}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'WUSNXS,ISMFNB'}
+  components:
+  - name: lab_image
+    properties: {height: 289}
+    type: Image
+    layout_properties: {grid_position: 'XBRPRM,IDHDFN'}
+    data_bindings: []
+  - name: lab_name
+    properties: {role: display, text: ''}
+    type: Label
+    layout_properties: {grid_position: 'XBRPRM,KTPZGP VPYOXN,NOPZKG'}
+    data_bindings: []
+  - name: lab_acronym
+    properties: {role: title, align: left, visible: false}
+    type: Label
+    layout_properties: {grid_position: 'XBRPRM,KTPZGP XOCWHS,RTTFNF'}
+    data_bindings: []
+  - name: lab_description
+    properties: {}
+    type: RichText
+    layout_properties: {grid_position: 'XBRPRM,KTPZGP HAUSQH,NPOZGD'}
+    data_bindings: []
+- name: main_stats
+  properties: {text: button_1}
+  type: Button
+  layout_properties: {grid_position: 'FAPZWC,NEZTPN'}
+  event_bindings: {click: main_stats_click}
+- name: match_history
+  properties: {text: button_2}
+  type: Button
+  layout_properties: {grid_position: 'FAPZWC,WAKTYK'}
+  data_bindings: []
+  event_bindings: {click: match_history_click}
+- name: laboratory_details
+  properties: {visible: false}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'OXAOMX,VXHSFD'}
+  components: []
+- name: laboratory_history
+  properties: {visible: false}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'NPZMYD,FPYGIY'}
+  components:
+  - name: rich_text_2
+    properties: {content: 'testing, this is the match history of the laboratory'}
+    type: RichText
+    layout_properties: {grid_position: 'FGSFCT,MBKKWB'}
+    components: []
+  - name: spacer_1
+    properties: {height: 32}
+    type: Spacer
+    layout_properties: {grid_position: 'QNMQAA,EYKQQQ'}
+  - name: match_history_panel
+    properties: {item_template: LabTemplate.ItemTemplate2}
+    type: RepeatingPanel
+    layout_properties: {grid_position: 'JQKFTU,XCGXHI'}
+is_package: true

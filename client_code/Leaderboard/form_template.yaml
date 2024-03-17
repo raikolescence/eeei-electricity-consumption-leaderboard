@@ -1,0 +1,368 @@
+container: {type: ColumnPanel}
+components:
+- name: card_1
+  properties: {role: card, col_widths: '{"VIJQEP":3,"GJBGKS":22,"NOYGOS":35}'}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'ILTCXT,CQIURD'}
+  components:
+  - name: label_12
+    properties: {text: ENERGY CONSUMPTION LEADERBOARD, role: title}
+    type: Label
+    layout_properties: {grid_position: 'PWBQKB,DDINSF'}
+    data_bindings: []
+  - name: label_6
+    properties: {text: '1'}
+    type: Label
+    layout_properties: {grid_position: 'BRFTIM,VIJQEP'}
+  - name: first_image
+    properties: {height: 257.4444274902344}
+    type: Image
+    layout_properties: {grid_position: 'BRFTIM,GJBGKS'}
+  - name: first_place
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'BRFTIM,NOYGOS ULPPMG,QJJOXU'}
+  - name: first_savings
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'BRFTIM,NOYGOS BQYWQK,DNZBQR'}
+  - name: first_updated
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'BRFTIM,NOYGOS BQYWQK,UNSOOA'}
+- name: card_4
+  properties: {role: card, col_widths: '{"HFXUIN":3,"LCDUSZ":17,"MASETF":40}'}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'SOGUPJ,CRODHQ'}
+  components:
+  - name: label_5
+    properties: {text: '2'}
+    type: Label
+    layout_properties: {grid_position: 'UVCVTO,HFXUIN'}
+  - name: second_image
+    properties: {height: 205.66665649414062}
+    type: Image
+    layout_properties: {grid_position: 'UVCVTO,LCDUSZ'}
+  - name: second_place
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'UVCVTO,MASETF PEQEIO,VCEEVD'}
+  - name: second_savings
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'UVCVTO,MASETF QCBGEQ,NJRREG'}
+  - name: second_updated
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'UVCVTO,MASETF QCBGEQ,PGBRCN'}
+- name: card_5
+  properties: {role: card, col_widths: '{"PJODLA":3,"FUVVEC":12,"RCUVXF":45}'}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'OPGSRW,WDBMNF'}
+  components:
+  - name: label_7
+    properties: {text: '3'}
+    type: Label
+    layout_properties: {grid_position: 'DTMZZO,PJODLA'}
+  - name: third_image
+    properties: {height: 147.66665649414062}
+    type: Image
+    layout_properties: {grid_position: 'DTMZZO,FUVVEC'}
+  - name: third_place
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'DTMZZO,RCUVXF RMPDXJ,OATOPV'}
+  - name: third_savings
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'DTMZZO,RCUVXF BYUQHU,DSMTQA'}
+  - name: third_updated
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'DTMZZO,RCUVXF BYUQHU,IPFJPM'}
+- name: card_6
+  properties: {role: card, col_widths: '{"LDILVO":3,"XZHMVJ":7,"QGQLKK":50}'}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'SZVGID,NSGSHP'}
+  components:
+  - name: label_8
+    properties: {text: '4'}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,LDILVO'}
+  - name: fourth_image
+    properties: {height: 76.66665649414062}
+    type: Image
+    layout_properties: {grid_position: 'KVIVDJ,XZHMVJ'}
+  - name: fourth_place
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK EUUJKR,PSPWMD'}
+  - name: fourth_savings
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK BZIVXV,YEDOWJ'}
+  - name: fourth_updated
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK BZIVXV,ZDPKFX'}
+- name: card_6_copy
+  properties: {role: card, col_widths: '{"LDILVO":3,"XZHMVJ":7,"QGQLKK":50}'}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'LQNGIY,RGDYAH'}
+  components:
+  - name: label_8_copy
+    properties: {text: '5'}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,LDILVO'}
+  - name: fifth_image
+    properties: {height: 75.111083984375}
+    type: Image
+    layout_properties: {grid_position: 'KVIVDJ,XZHMVJ'}
+  - name: fifth_place
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK SDIMSV,KEQDQH'}
+  - name: fifth_savings
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK HXGTQC,UBYKTR'}
+  - name: fifth_updated
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK HXGTQC,LDCNUO'}
+- name: card_6_copy_copy
+  properties: {role: card, col_widths: '{"LDILVO":3,"XZHMVJ":7,"QGQLKK":50}'}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'MROJUS,DVMKCT'}
+  components:
+  - name: label_8_copy_copy
+    properties: {text: '6'}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,LDILVO'}
+  - name: sixth_image
+    properties: {height: 75.111083984375}
+    type: Image
+    layout_properties: {grid_position: 'KVIVDJ,XZHMVJ'}
+  - name: sixth_place
+    properties: {text: ''}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK SVUUPV,MRVMQS'}
+  - name: sixth_savings
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK IZORTP,NLWIMO'}
+  - name: sixth_updated
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK IZORTP,USFPWE'}
+- name: card_6_copy_copy_2
+  properties: {role: card, col_widths: '{"LDILVO":3,"XZHMVJ":7,"QGQLKK":50}'}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'XSEPAL,QAWZYZ'}
+  components:
+  - name: label_8_copy_copy_2
+    properties: {text: '7'}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,LDILVO'}
+  - name: seventh_image
+    properties: {height: 76.44442749023438}
+    type: Image
+    layout_properties: {grid_position: 'KVIVDJ,XZHMVJ'}
+  - name: seventh_place
+    properties: {text: ''}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK HNLDOP,GEDHHQ'}
+  - name: seventh_savings
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK KMTCVG,CSDWUL'}
+  - name: seventh_updated
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK KMTCVG,SMEQJW'}
+- name: card_6_copy_copy_3
+  properties: {role: card, col_widths: '{"LDILVO":3,"XZHMVJ":7,"QGQLKK":50}'}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'GVKZUG,YDKZBD'}
+  components:
+  - name: label_8_copy_copy_3
+    properties: {text: '8'}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,LDILVO'}
+  - name: eighth_image
+    properties: {height: 74.88885498046875}
+    type: Image
+    layout_properties: {grid_position: 'KVIVDJ,XZHMVJ'}
+  - name: eighth_place
+    properties: {text: ''}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK KQJDCJ,JNMULL'}
+  - name: eighth_savings
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK TWKTQC,DNXALT'}
+  - name: eighth_updated
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK TWKTQC,JOWOIM'}
+- name: card_6_copy_copy_4
+  properties: {role: card, col_widths: '{"LDILVO":3,"XZHMVJ":7,"QGQLKK":50}'}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'GBZRQL,AGNDTN'}
+  components:
+  - name: label_8_copy_copy_4
+    properties: {text: '9'}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,LDILVO'}
+  - name: ninth_image
+    properties: {height: 75.99996948242188}
+    type: Image
+    layout_properties: {grid_position: 'KVIVDJ,XZHMVJ'}
+  - name: ninth_place
+    properties: {text: ''}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK LCEMQC,QVELTN'}
+  - name: ninth_savings
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK GECVXH,KNXSTP'}
+  - name: ninth_updated
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK GECVXH,ZHKOSW'}
+- name: card_6_copy_copy_5
+  properties: {role: card, col_widths: '{"LDILVO":3,"XZHMVJ":7,"QGQLKK":50}'}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'FCQNUE,JGUOGQ'}
+  components:
+  - name: label_8_copy_copy_5
+    properties: {text: '10'}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,LDILVO'}
+  - name: tenth_image
+    properties: {height: 73.44439697265625}
+    type: Image
+    layout_properties: {grid_position: 'KVIVDJ,XZHMVJ'}
+  - name: tenth_place
+    properties: {text: ''}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK KQXELF,IFUAVR'}
+  - name: tenth_savings
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK ZIFEMA,XSFCAV'}
+  - name: tenth_updated
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK ZIFEMA,QQVSLL'}
+- name: card_6_copy_copy_6
+  properties: {role: card, col_widths: '{"LDILVO":3,"XZHMVJ":7,"QGQLKK":50}'}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'WHHOHA,EUSKAG'}
+  components:
+  - name: label_8_copy_copy_6
+    properties: {text: '11'}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,LDILVO'}
+  - name: eleventh_image
+    properties: {height: 75.77774047851562}
+    type: Image
+    layout_properties: {grid_position: 'KVIVDJ,XZHMVJ'}
+  - name: eleventh_place
+    properties: {text: ''}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK CNTHEW,KHCYTE'}
+  - name: eleventh_savings
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK JTUEZN,KRDNHU'}
+  - name: eleventh_updated
+    properties: {text: ''}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK JTUEZN,SYMYTP'}
+- name: card_6_copy_copy_7_copy
+  properties: {role: card, col_widths: '{"LDILVO":3,"XZHMVJ":7,"QGQLKK":50}'}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'LVHYIK,NTLATE'}
+  components:
+  - name: label_8_copy_copy_7_copy
+    properties: {text: '12'}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,LDILVO'}
+  - name: twelfth_image
+    properties: {height: 76.111083984375}
+    type: Image
+    layout_properties: {grid_position: 'KVIVDJ,XZHMVJ'}
+  - name: twelfth_place
+    properties: {text: ''}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK KVHKSJ,IUFBTQ'}
+  - name: twelfth_savings
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK SONGVF,QBYRHZ'}
+  - name: twelfth_updated
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK SONGVF,REVBEH'}
+- name: card_6_copy_copy_7
+  properties: {role: card, col_widths: '{"LDILVO":3,"XZHMVJ":7,"QGQLKK":50}'}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'LYMGCK,VWNLOK'}
+  components:
+  - name: label_8_copy_copy_7
+    properties: {text: '13'}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,LDILVO'}
+  - name: thirteenth_image
+    properties: {height: 76.111083984375}
+    type: Image
+    layout_properties: {grid_position: 'KVIVDJ,XZHMVJ'}
+  - name: thirteenth_place
+    properties: {text: ''}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK KVHKSJ,IUFBTQ'}
+    data_bindings: []
+  - name: thirteenth_savings
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK SONGVF,QBYRHZ'}
+  - name: thirteenth_updated
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK SONGVF,ILCSQE'}
+- name: card_6_copy_copy_7_copy_2
+  properties: {role: card, col_widths: '{"LDILVO":3,"XZHMVJ":7,"QGQLKK":50}'}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'SMBGLE,XWEPJB'}
+  components:
+  - name: label_8_copy_copy_7_copy_2
+    properties: {text: '14'}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,LDILVO'}
+  - name: fourteenth_image
+    properties: {height: 76.111083984375}
+    type: Image
+    layout_properties: {grid_position: 'KVIVDJ,XZHMVJ'}
+  - name: fourteenth_place
+    properties: {text: ''}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK KVHKSJ,IUFBTQ'}
+  - name: fourteenth_savings
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK SONGVF,QBYRHZ'}
+  - name: fourteenth_updated
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'KVIVDJ,QGQLKK SONGVF,LDEHLY'}
+- name: card_2
+  properties: {role: card}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'BLEHQU,FFGJRS'}
+  components:
+  - name: rich_text_2
+    properties: {content: THIS IS WHERE ADDITIONAL INFORMATION MIGHT BE}
+    type: RichText
+    layout_properties: {grid_position: 'JTFAXX,BTTWMV'}
+is_package: true
