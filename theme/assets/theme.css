@@ -584,7 +584,7 @@ input[disabled] ~ span {
     position: fixed;
     top: 0;
     bottom: 0;
-    width: calc(100% - 56px);
+    width: calc(100% - 156px);
     max-width: 360px;
     z-index: 3;
     border-right: none;
